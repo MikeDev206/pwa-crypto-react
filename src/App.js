@@ -33,7 +33,7 @@ function App() {
       <Container>
         <Row>
           <Col className="xs-12">
-            <h1 className="py-3">Costo del bitcoin en diferentes monedas</h1>
+            <h1 className="py-3">BTC price on different currencies</h1>
             <Row>
             {
               Object.keys(bitcoinValues).map(key => {
